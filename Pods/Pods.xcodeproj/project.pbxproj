@@ -1,0 +1,1166 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B173831634107D200828FA351B25FE /* Pods-miniprojecttokopedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 878958350879049DE0A50101F241E9E4 /* Pods-miniprojecttokopedia-dummy.m */; };
+		0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7274C6E2BE43840F4EA4045E36252 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		203BC9CC35438A2BD7306863773C92F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		2CC03E33675C4C1DDD7934B2D2D2C7B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		31E8DE0E137994E73E028D62D71A829A /* RangeSeekSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E216249053D85929FC6C123A5EA30E33 /* RangeSeekSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E3CF0DDBE5454FE035980C26533E58 /* RangeSeekSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E860E0C71F411DE69AD6F53AC914E2 /* RangeSeekSlider-dummy.m */; };
+		448C42D032246F3AD89CE402E5F583BE /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FD667C664C40010C3D0398553239ED /* RangeSeekSlider.swift */; };
+		4949EF2B718575F22EA6DBA1290C255A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		4C3ED74E716799C6548CBF93363453FD /* Pods-miniprojecttokopediaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E6893F45292B2FB4BEDF7FE2B7AAEB /* Pods-miniprojecttokopediaTests-dummy.m */; };
+		4CD800D98469E80C0DD6FF7A5DE78954 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9239525C5E2937E41F3EBAE3FC29EA45 /* CoreGraphics.framework */; };
+		55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1038CBFEBB7DD6436F4E9703CC0DE328 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CE213826A6A67A12B33CD7BBA8B6C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		833EF663309C084B501610F4ECF6B59C /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA858636328B35ECA889CA29267119A /* TapticEngine.swift */; };
+		8534D1ABB9252CD2372FDE368862B591 /* Pods-miniprojecttokopediaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 115D95AFE46B4DFC6D965F2731684401 /* Pods-miniprojecttokopediaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CF1132A64FAEE9BC1FD3B14B154A23 /* Pods-miniprojecttokopedia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AC75C9B448E4F564E3D890F1E60F58 /* Pods-miniprojecttokopedia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892CFF9CFCBCBF9A1F2809CF4E2BAADB /* Pods-miniprojecttokopediaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D8A4F15D93BBC6A316983DB605928 /* Pods-miniprojecttokopediaUITests-dummy.m */; };
+		B402919D1DC5CB940B0186CAA39F330E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */; };
+		BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E122E9E4D314D4B2B46F0303B1BCE /* DLRadioButton.m */; };
+		CCD9D246CB354EEED55E86CA2FBD2074 /* Pods-miniprojecttokopediaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41DD94B8B8172903C7B1DB6399F5436 /* Pods-miniprojecttokopediaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E225FBBE54A52784FB3174C86E53019A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */; };
+		F20080CB29818F3742B284B69B9083A8 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1156B981C3DAAE91FC38EC7C98D30 /* RangeSeekSliderDelegate.swift */; };
+		FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50204A8DD29C8BD8704636B1E89811AA /* DLRadioButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EA53EC92BEE9992BA2C9D95B01CE4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC9E739CEA0A752F341DB5B4E572EEE;
+			remoteInfo = "Pods-miniprojecttokopedia";
+		};
+		80E795495B5953632C944D02CE14A416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BD0675E3AE6FB8C284CB79F1013052;
+			remoteInfo = DLRadioButton;
+		};
+		C82200958109FA26153C529A9B76E5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC9E739CEA0A752F341DB5B4E572EEE;
+			remoteInfo = "Pods-miniprojecttokopedia";
+		};
+		E8F7B76130A52535884E360AA80348B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4C7EFF24E6D2559B209B578D83F2658;
+			remoteInfo = RangeSeekSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0717C77915AEA675DB398B985E0CF18A /* Pods-miniprojecttokopedia-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-miniprojecttokopedia-acknowledgements.plist"; sourceTree = "<group>"; };
+		078D64BA4F9CA708BA8F92862FFE2D2F /* Pods-miniprojecttokopedia-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-miniprojecttokopedia-Info.plist"; sourceTree = "<group>"; };
+		0BA7E02EAA0C8FB191799DC13CF94841 /* Pods-miniprojecttokopediaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-miniprojecttokopediaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1038CBFEBB7DD6436F4E9703CC0DE328 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		10B1156B981C3DAAE91FC38EC7C98D30 /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSeekSliderDelegate.swift; path = Sources/RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
+		115D95AFE46B4DFC6D965F2731684401 /* Pods-miniprojecttokopediaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-miniprojecttokopediaUITests-umbrella.h"; sourceTree = "<group>"; };
+		1B4B1035FFD9A4F82BEA001610791A8C /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		1BFB57DABF04DA41F437811CAA40983D /* RangeSeekSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RangeSeekSlider.framework; path = RangeSeekSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203AA97F398392082CC69D056AAB765E /* Pods-miniprojecttokopediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-miniprojecttokopediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21605F76201E0C21F95EEBB6D3F468DD /* Pods_miniprojecttokopediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_miniprojecttokopediaTests.framework; path = "Pods-miniprojecttokopediaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FB3BF1F0C20CBD74F23BCEA2E69111 /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		26A710E6CCD5E6D78FAD46237DAA8C95 /* Pods-miniprojecttokopediaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-miniprojecttokopediaUITests-Info.plist"; sourceTree = "<group>"; };
+		353AA43ED1BB09D944449DB92D8AE86B /* RangeSeekSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RangeSeekSlider.modulemap; sourceTree = "<group>"; };
+		3BAA85CCF1C8EC44614C4BEC8E49AA15 /* Pods-miniprojecttokopediaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-miniprojecttokopediaUITests.modulemap"; sourceTree = "<group>"; };
+		3C609AB94290D057A1D334F254A0C730 /* Pods-miniprojecttokopedia-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-miniprojecttokopedia-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F9DC55228B3EBA180F8CB140E6D812A /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459BE1B0D1120AAB95573988AD1D389E /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
+		4E0D7F9EB74902631D166D18231E5D55 /* Pods-miniprojecttokopediaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-miniprojecttokopediaTests-Info.plist"; sourceTree = "<group>"; };
+		50204A8DD29C8BD8704636B1E89811AA /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		57D6247604E50F54C2C795FD808AD561 /* Pods_miniprojecttokopedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_miniprojecttokopedia.framework; path = "Pods-miniprojecttokopedia.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E6893F45292B2FB4BEDF7FE2B7AAEB /* Pods-miniprojecttokopediaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-miniprojecttokopediaTests-dummy.m"; sourceTree = "<group>"; };
+		58CD3317B6C84F85D887DEF7F1B679AF /* Pods-miniprojecttokopedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-miniprojecttokopedia.release.xcconfig"; sourceTree = "<group>"; };
+		66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E6EBD38162A3F3B38F867967E04F0BC /* Pods-miniprojecttokopediaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-miniprojecttokopediaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72FD667C664C40010C3D0398553239ED /* RangeSeekSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSeekSlider.swift; path = Sources/RangeSeekSlider.swift; sourceTree = "<group>"; };
+		755B33D1DBFB8CA4F4EB4EC5646A0629 /* Pods-miniprojecttokopediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-miniprojecttokopediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2D8A4F15D93BBC6A316983DB605928 /* Pods-miniprojecttokopediaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-miniprojecttokopediaUITests-dummy.m"; sourceTree = "<group>"; };
+		878958350879049DE0A50101F241E9E4 /* Pods-miniprojecttokopedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-miniprojecttokopedia-dummy.m"; sourceTree = "<group>"; };
+		92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9239525C5E2937E41F3EBAE3FC29EA45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		93C7274C6E2BE43840F4EA4045E36252 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FEB45C271B6E750C8A9D6B8FF93C02E /* RangeSeekSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RangeSeekSlider-Info.plist"; sourceTree = "<group>"; };
+		A7FF2E627A910C184918D8997F42DE06 /* Pods-miniprojecttokopediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-miniprojecttokopediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A84E122E9E4D314D4B2B46F0303B1BCE /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		AAA858636328B35ECA889CA29267119A /* TapticEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapticEngine.swift; path = Sources/TapticEngine.swift; sourceTree = "<group>"; };
+		C6E860E0C71F411DE69AD6F53AC914E2 /* RangeSeekSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangeSeekSlider-dummy.m"; sourceTree = "<group>"; };
+		C891F37956D78CE3288D98664A8A7CFE /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		CC4A4AB82CAEBD3EF1C2936F35CB4704 /* Pods-miniprojecttokopedia-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-miniprojecttokopedia-frameworks.sh"; sourceTree = "<group>"; };
+		D1623D33DCBFB70A6252BABCA4AED519 /* Pods_miniprojecttokopediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_miniprojecttokopediaUITests.framework; path = "Pods-miniprojecttokopediaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27D5589AC83B94AD92AF07AFED1B19F /* RangeSeekSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangeSeekSlider.xcconfig; sourceTree = "<group>"; };
+		D33A9171EF70429BBA6E0D93EF5EDEBB /* Pods-miniprojecttokopedia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-miniprojecttokopedia.modulemap"; sourceTree = "<group>"; };
+		D41DD94B8B8172903C7B1DB6399F5436 /* Pods-miniprojecttokopediaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-miniprojecttokopediaTests-umbrella.h"; sourceTree = "<group>"; };
+		D878080C19EF6B18A557D99A02373848 /* Pods-miniprojecttokopediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-miniprojecttokopediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC04FA18AA24487653C4ED9519F55CAF /* Pods-miniprojecttokopediaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-miniprojecttokopediaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0AC75C9B448E4F564E3D890F1E60F58 /* Pods-miniprojecttokopedia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-miniprojecttokopedia-umbrella.h"; sourceTree = "<group>"; };
+		E216249053D85929FC6C123A5EA30E33 /* RangeSeekSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeSeekSlider-umbrella.h"; sourceTree = "<group>"; };
+		E64CBB5777409067EE2695904A6870D5 /* RangeSeekSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeSeekSlider-prefix.pch"; sourceTree = "<group>"; };
+		F721D1EFB0330D3D774FBDCCEC0F56D2 /* Pods-miniprojecttokopediaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-miniprojecttokopediaTests.modulemap"; sourceTree = "<group>"; };
+		FDFB394A4093ED3F6C54D3226392E51A /* Pods-miniprojecttokopedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-miniprojecttokopedia.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF308BF6C09BCDF105AFA8A91D7DA79 /* Pods-miniprojecttokopediaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-miniprojecttokopediaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C462E0A8E9321DBBFF712406B950DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD800D98469E80C0DD6FF7A5DE78954 /* CoreGraphics.framework in Frameworks */,
+				203BC9CC35438A2BD7306863773C92F7 /* Foundation.framework in Frameworks */,
+				E225FBBE54A52784FB3174C86E53019A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2F34A0FDDA1819A4F4245A462D4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B402919D1DC5CB940B0186CAA39F330E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45296897D60D88DB8CB06AF892213F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC03E33675C4C1DDD7934B2D2D2C7B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEACB17738E236B3CA7EEBB991883ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4949EF2B718575F22EA6DBA1290C255A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F567647685AF706166849CF0D2DD44E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CE213826A6A67A12B33CD7BBA8B6C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945D904BEF8A4E91210D493B742D833D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07C2B8F134F9D5F0CB5213E3687F9BC9 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				93C7274C6E2BE43840F4EA4045E36252 /* DLRadioButton.h */,
+				A84E122E9E4D314D4B2B46F0303B1BCE /* DLRadioButton.m */,
+				C143855E6A36DE6EBF11B0CD41D84390 /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		15C7DCC4BE9402C3B40A9CDA37097D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9DC55228B3EBA180F8CB140E6D812A /* DLRadioButton.framework */,
+				57D6247604E50F54C2C795FD808AD561 /* Pods_miniprojecttokopedia.framework */,
+				21605F76201E0C21F95EEBB6D3F468DD /* Pods_miniprojecttokopediaTests.framework */,
+				D1623D33DCBFB70A6252BABCA4AED519 /* Pods_miniprojecttokopediaUITests.framework */,
+				1BFB57DABF04DA41F437811CAA40983D /* RangeSeekSlider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B2820036C0914378BF5DE3F8C7E299 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				353AA43ED1BB09D944449DB92D8AE86B /* RangeSeekSlider.modulemap */,
+				D27D5589AC83B94AD92AF07AFED1B19F /* RangeSeekSlider.xcconfig */,
+				C6E860E0C71F411DE69AD6F53AC914E2 /* RangeSeekSlider-dummy.m */,
+				9FEB45C271B6E750C8A9D6B8FF93C02E /* RangeSeekSlider-Info.plist */,
+				E64CBB5777409067EE2695904A6870D5 /* RangeSeekSlider-prefix.pch */,
+				E216249053D85929FC6C123A5EA30E33 /* RangeSeekSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RangeSeekSlider";
+			sourceTree = "<group>";
+		};
+		79727F6400AC903F65DD6081B1189A15 /* Pods-miniprojecttokopediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BAA85CCF1C8EC44614C4BEC8E49AA15 /* Pods-miniprojecttokopediaUITests.modulemap */,
+				6E6EBD38162A3F3B38F867967E04F0BC /* Pods-miniprojecttokopediaUITests-acknowledgements.markdown */,
+				0BA7E02EAA0C8FB191799DC13CF94841 /* Pods-miniprojecttokopediaUITests-acknowledgements.plist */,
+				7B2D8A4F15D93BBC6A316983DB605928 /* Pods-miniprojecttokopediaUITests-dummy.m */,
+				26A710E6CCD5E6D78FAD46237DAA8C95 /* Pods-miniprojecttokopediaUITests-Info.plist */,
+				115D95AFE46B4DFC6D965F2731684401 /* Pods-miniprojecttokopediaUITests-umbrella.h */,
+				A7FF2E627A910C184918D8997F42DE06 /* Pods-miniprojecttokopediaUITests.debug.xcconfig */,
+				203AA97F398392082CC69D056AAB765E /* Pods-miniprojecttokopediaUITests.release.xcconfig */,
+			);
+			name = "Pods-miniprojecttokopediaUITests";
+			path = "Target Support Files/Pods-miniprojecttokopediaUITests";
+			sourceTree = "<group>";
+		};
+		82D840065F499780EFBF93DFE063A534 /* Pods-miniprojecttokopedia */ = {
+			isa = PBXGroup;
+			children = (
+				D33A9171EF70429BBA6E0D93EF5EDEBB /* Pods-miniprojecttokopedia.modulemap */,
+				3C609AB94290D057A1D334F254A0C730 /* Pods-miniprojecttokopedia-acknowledgements.markdown */,
+				0717C77915AEA675DB398B985E0CF18A /* Pods-miniprojecttokopedia-acknowledgements.plist */,
+				878958350879049DE0A50101F241E9E4 /* Pods-miniprojecttokopedia-dummy.m */,
+				CC4A4AB82CAEBD3EF1C2936F35CB4704 /* Pods-miniprojecttokopedia-frameworks.sh */,
+				078D64BA4F9CA708BA8F92862FFE2D2F /* Pods-miniprojecttokopedia-Info.plist */,
+				E0AC75C9B448E4F564E3D890F1E60F58 /* Pods-miniprojecttokopedia-umbrella.h */,
+				FDFB394A4093ED3F6C54D3226392E51A /* Pods-miniprojecttokopedia.debug.xcconfig */,
+				58CD3317B6C84F85D887DEF7F1B679AF /* Pods-miniprojecttokopedia.release.xcconfig */,
+			);
+			name = "Pods-miniprojecttokopedia";
+			path = "Target Support Files/Pods-miniprojecttokopedia";
+			sourceTree = "<group>";
+		};
+		86EC5EDA436CFD5BFABB91A1E49058DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D840065F499780EFBF93DFE063A534 /* Pods-miniprojecttokopedia */,
+				981833358E578B4238C73505182266ED /* Pods-miniprojecttokopediaTests */,
+				79727F6400AC903F65DD6081B1189A15 /* Pods-miniprojecttokopediaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		88AFABF0B2151E7244F14EB77D868DCA /* RangeSeekSlider */ = {
+			isa = PBXGroup;
+			children = (
+				72FD667C664C40010C3D0398553239ED /* RangeSeekSlider.swift */,
+				10B1156B981C3DAAE91FC38EC7C98D30 /* RangeSeekSliderDelegate.swift */,
+				AAA858636328B35ECA889CA29267119A /* TapticEngine.swift */,
+				29B2820036C0914378BF5DE3F8C7E299 /* Support Files */,
+			);
+			name = RangeSeekSlider;
+			path = RangeSeekSlider;
+			sourceTree = "<group>";
+		};
+		945D904BEF8A4E91210D493B742D833D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9239525C5E2937E41F3EBAE3FC29EA45 /* CoreGraphics.framework */,
+				66180FB42502B8E398E27081C85DEE5C /* Foundation.framework */,
+				92074D9A5286B7B4B311E4B9C5AE85F3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		981833358E578B4238C73505182266ED /* Pods-miniprojecttokopediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F721D1EFB0330D3D774FBDCCEC0F56D2 /* Pods-miniprojecttokopediaTests.modulemap */,
+				DC04FA18AA24487653C4ED9519F55CAF /* Pods-miniprojecttokopediaTests-acknowledgements.markdown */,
+				FEF308BF6C09BCDF105AFA8A91D7DA79 /* Pods-miniprojecttokopediaTests-acknowledgements.plist */,
+				57E6893F45292B2FB4BEDF7FE2B7AAEB /* Pods-miniprojecttokopediaTests-dummy.m */,
+				4E0D7F9EB74902631D166D18231E5D55 /* Pods-miniprojecttokopediaTests-Info.plist */,
+				D41DD94B8B8172903C7B1DB6399F5436 /* Pods-miniprojecttokopediaTests-umbrella.h */,
+				755B33D1DBFB8CA4F4EB4EC5646A0629 /* Pods-miniprojecttokopediaTests.debug.xcconfig */,
+				D878080C19EF6B18A557D99A02373848 /* Pods-miniprojecttokopediaTests.release.xcconfig */,
+			);
+			name = "Pods-miniprojecttokopediaTests";
+			path = "Target Support Files/Pods-miniprojecttokopediaTests";
+			sourceTree = "<group>";
+		};
+		C143855E6A36DE6EBF11B0CD41D84390 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B4B1035FFD9A4F82BEA001610791A8C /* DLRadioButton.modulemap */,
+				22FB3BF1F0C20CBD74F23BCEA2E69111 /* DLRadioButton.xcconfig */,
+				50204A8DD29C8BD8704636B1E89811AA /* DLRadioButton-dummy.m */,
+				459BE1B0D1120AAB95573988AD1D389E /* DLRadioButton-Info.plist */,
+				C891F37956D78CE3288D98664A8A7CFE /* DLRadioButton-prefix.pch */,
+				1038CBFEBB7DD6436F4E9703CC0DE328 /* DLRadioButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E269089354620C52E3A93535B52C7F53 /* Pods */,
+				15C7DCC4BE9402C3B40A9CDA37097D6E /* Products */,
+				86EC5EDA436CFD5BFABB91A1E49058DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E269089354620C52E3A93535B52C7F53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07C2B8F134F9D5F0CB5213E3687F9BC9 /* DLRadioButton */,
+				88AFABF0B2151E7244F14EB77D868DCA /* RangeSeekSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BF24E42A4DCA2D38FC9E9D338B38873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8534D1ABB9252CD2372FDE368862B591 /* Pods-miniprojecttokopediaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B490B8DFA0D46D862B6D5DBD7451390 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E8DE0E137994E73E028D62D71A829A /* RangeSeekSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B07AA8E9B17041274718AE94C34D83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */,
+				0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF2AA3F475F6A4E293D08FD516DEB10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CF1132A64FAEE9BC1FD3B14B154A23 /* Pods-miniprojecttokopedia-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C234769C2AA9F00F3FA41B41FDF70863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD9D246CB354EEED55E86CA2FBD2074 /* Pods-miniprojecttokopediaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECCCD994A7BA390D8D0E83D7A01751D /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				8B07AA8E9B17041274718AE94C34D83D /* Headers */,
+				91AFD37EEF3A1EE2D30A7AF1ACE017ED /* Sources */,
+				ABD2F34A0FDDA1819A4F4245A462D4E6 /* Frameworks */,
+				21DB0C0CA3815E9F41D21BAA21744854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = 3F9DC55228B3EBA180F8CB140E6D812A /* DLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D6330255A1C80D14E1EC027CA9667D1 /* Pods-miniprojecttokopediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A41982299CD424DF08767F1BF36DA4A /* Build configuration list for PBXNativeTarget "Pods-miniprojecttokopediaUITests" */;
+			buildPhases = (
+				0BF24E42A4DCA2D38FC9E9D338B38873 /* Headers */,
+				E95D0493FF8CF190BA89D9A844AFF4DE /* Sources */,
+				B45296897D60D88DB8CB06AF892213F5 /* Frameworks */,
+				CF208DF6E46F8D8B8FCD503287A0BCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD27B91D7ABFBBB2E9037D2B419948D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-miniprojecttokopediaUITests";
+			productName = "Pods-miniprojecttokopediaUITests";
+			productReference = D1623D33DCBFB70A6252BABCA4AED519 /* Pods_miniprojecttokopediaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4C7EFF24E6D2559B209B578D83F2658 /* RangeSeekSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7F6B4ECFB917DEA0D40477FE4F4A25 /* Build configuration list for PBXNativeTarget "RangeSeekSlider" */;
+			buildPhases = (
+				7B490B8DFA0D46D862B6D5DBD7451390 /* Headers */,
+				B10FC9B7AE3C40E5B275B618E1AC8B0B /* Sources */,
+				60C462E0A8E9321DBBFF712406B950DF /* Frameworks */,
+				AD82E52734C493E82D7A9477D02EFCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RangeSeekSlider;
+			productName = RangeSeekSlider;
+			productReference = 1BFB57DABF04DA41F437811CAA40983D /* RangeSeekSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBC9E739CEA0A752F341DB5B4E572EEE /* Pods-miniprojecttokopedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8788EE1C32347A285CA2CC0809E0D0 /* Build configuration list for PBXNativeTarget "Pods-miniprojecttokopedia" */;
+			buildPhases = (
+				BDF2AA3F475F6A4E293D08FD516DEB10 /* Headers */,
+				0BE39F926689064AC90EDBA4D033B2D6 /* Sources */,
+				F567647685AF706166849CF0D2DD44E7 /* Frameworks */,
+				24A7000FFA90A6E7B7579A0C38C600FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4880DB2D7DF9DE57C1FD7BFF8D9DDEB1 /* PBXTargetDependency */,
+				3B23E1695CB1E0BB9BA8CECD9F6D3203 /* PBXTargetDependency */,
+			);
+			name = "Pods-miniprojecttokopedia";
+			productName = "Pods-miniprojecttokopedia";
+			productReference = 57D6247604E50F54C2C795FD808AD561 /* Pods_miniprojecttokopedia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1EFB73D1E941855E7EBCCED98987E99 /* Pods-miniprojecttokopediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0319863D870A24FC98C97BC7D88285 /* Build configuration list for PBXNativeTarget "Pods-miniprojecttokopediaTests" */;
+			buildPhases = (
+				C234769C2AA9F00F3FA41B41FDF70863 /* Headers */,
+				8134248417CC9D757AF6F6B9E26FB5D3 /* Sources */,
+				EEACB17738E236B3CA7EEBB991883ACB /* Frameworks */,
+				E1348616F79EEDA6BC090675CDAA1FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF784D1B9699BE5985C91AD76F74CA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-miniprojecttokopediaTests";
+			productName = "Pods-miniprojecttokopediaTests";
+			productReference = 21605F76201E0C21F95EEBB6D3F468DD /* Pods_miniprojecttokopediaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 15C7DCC4BE9402C3B40A9CDA37097D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */,
+				BBC9E739CEA0A752F341DB5B4E572EEE /* Pods-miniprojecttokopedia */,
+				F1EFB73D1E941855E7EBCCED98987E99 /* Pods-miniprojecttokopediaTests */,
+				5D6330255A1C80D14E1EC027CA9667D1 /* Pods-miniprojecttokopediaUITests */,
+				B4C7EFF24E6D2559B209B578D83F2658 /* RangeSeekSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DB0C0CA3815E9F41D21BAA21744854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A7000FFA90A6E7B7579A0C38C600FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD82E52734C493E82D7A9477D02EFCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF208DF6E46F8D8B8FCD503287A0BCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1348616F79EEDA6BC090675CDAA1FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BE39F926689064AC90EDBA4D033B2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B173831634107D200828FA351B25FE /* Pods-miniprojecttokopedia-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8134248417CC9D757AF6F6B9E26FB5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3ED74E716799C6548CBF93363453FD /* Pods-miniprojecttokopediaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AFD37EEF3A1EE2D30A7AF1ACE017ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */,
+				BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10FC9B7AE3C40E5B275B618E1AC8B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E3CF0DDBE5454FE035980C26533E58 /* RangeSeekSlider-dummy.m in Sources */,
+				448C42D032246F3AD89CE402E5F583BE /* RangeSeekSlider.swift in Sources */,
+				F20080CB29818F3742B284B69B9083A8 /* RangeSeekSliderDelegate.swift in Sources */,
+				833EF663309C084B501610F4ECF6B59C /* TapticEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95D0493FF8CF190BA89D9A844AFF4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892CFF9CFCBCBF9A1F2809CF4E2BAADB /* Pods-miniprojecttokopediaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B23E1695CB1E0BB9BA8CECD9F6D3203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangeSeekSlider;
+			target = B4C7EFF24E6D2559B209B578D83F2658 /* RangeSeekSlider */;
+			targetProxy = E8F7B76130A52535884E360AA80348B6 /* PBXContainerItemProxy */;
+		};
+		4880DB2D7DF9DE57C1FD7BFF8D9DDEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = 46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */;
+			targetProxy = 80E795495B5953632C944D02CE14A416 /* PBXContainerItemProxy */;
+		};
+		BD27B91D7ABFBBB2E9037D2B419948D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-miniprojecttokopedia";
+			target = BBC9E739CEA0A752F341DB5B4E572EEE /* Pods-miniprojecttokopedia */;
+			targetProxy = C82200958109FA26153C529A9B76E5F2 /* PBXContainerItemProxy */;
+		};
+		CCF784D1B9699BE5985C91AD76F74CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-miniprojecttokopedia";
+			target = BBC9E739CEA0A752F341DB5B4E572EEE /* Pods-miniprojecttokopedia */;
+			targetProxy = 4EA53EC92BEE9992BA2C9D95B01CE4B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BB0230EF9F7B5CFD2894289B893996E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27D5589AC83B94AD92AF07AFED1B19F /* RangeSeekSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeSeekSlider/RangeSeekSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeSeekSlider/RangeSeekSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RangeSeekSlider/RangeSeekSlider.modulemap";
+				PRODUCT_MODULE_NAME = RangeSeekSlider;
+				PRODUCT_NAME = RangeSeekSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D1279F191FB1D2F2713C14FF7A7E87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CD3317B6C84F85D887DEF7F1B679AF /* Pods-miniprojecttokopedia.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-miniprojecttokopedia/Pods-miniprojecttokopedia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-miniprojecttokopedia/Pods-miniprojecttokopedia.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2D3CD66C6E2BC1EAF5CC491270401813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755B33D1DBFB8CA4F4EB4EC5646A0629 /* Pods-miniprojecttokopediaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-miniprojecttokopediaTests/Pods-miniprojecttokopediaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-miniprojecttokopediaTests/Pods-miniprojecttokopediaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BF0FFE5765AE6467B6D769781889D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFB394A4093ED3F6C54D3226392E51A /* Pods-miniprojecttokopedia.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-miniprojecttokopedia/Pods-miniprojecttokopedia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-miniprojecttokopedia/Pods-miniprojecttokopedia.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6E4F29553C3C05D64C09C73E81E7AA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203AA97F398392082CC69D056AAB765E /* Pods-miniprojecttokopediaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-miniprojecttokopediaUITests/Pods-miniprojecttokopediaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-miniprojecttokopediaUITests/Pods-miniprojecttokopediaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99438942AED42EB97614ACA6A024DD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27D5589AC83B94AD92AF07AFED1B19F /* RangeSeekSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeSeekSlider/RangeSeekSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeSeekSlider/RangeSeekSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RangeSeekSlider/RangeSeekSlider.modulemap";
+				PRODUCT_MODULE_NAME = RangeSeekSlider;
+				PRODUCT_NAME = RangeSeekSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8308FE51FD728EC7F31822F49BF2BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FB3BF1F0C20CBD74F23BCEA2E69111 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1ADAC7CB552B5AE117091230DC8D3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D878080C19EF6B18A557D99A02373848 /* Pods-miniprojecttokopediaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-miniprojecttokopediaTests/Pods-miniprojecttokopediaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-miniprojecttokopediaTests/Pods-miniprojecttokopediaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BED03D2580C14346C3AE8F5EB6A5F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FB3BF1F0C20CBD74F23BCEA2E69111 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D342DAA21AB6AC0FC30F58304842D301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FF2E627A910C184918D8997F42DE06 /* Pods-miniprojecttokopediaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-miniprojecttokopediaUITests/Pods-miniprojecttokopediaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-miniprojecttokopediaUITests/Pods-miniprojecttokopediaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8788EE1C32347A285CA2CC0809E0D0 /* Build configuration list for PBXNativeTarget "Pods-miniprojecttokopedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF0FFE5765AE6467B6D769781889D00 /* Debug */,
+				1D1279F191FB1D2F2713C14FF7A7E87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ECCCD994A7BA390D8D0E83D7A01751D /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED03D2580C14346C3AE8F5EB6A5F977 /* Debug */,
+				A8308FE51FD728EC7F31822F49BF2BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0319863D870A24FC98C97BC7D88285 /* Build configuration list for PBXNativeTarget "Pods-miniprojecttokopediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3CD66C6E2BC1EAF5CC491270401813 /* Debug */,
+				B1ADAC7CB552B5AE117091230DC8D3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A41982299CD424DF08767F1BF36DA4A /* Build configuration list for PBXNativeTarget "Pods-miniprojecttokopediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D342DAA21AB6AC0FC30F58304842D301 /* Debug */,
+				6E4F29553C3C05D64C09C73E81E7AA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7F6B4ECFB917DEA0D40477FE4F4A25 /* Build configuration list for PBXNativeTarget "RangeSeekSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99438942AED42EB97614ACA6A024DD39 /* Debug */,
+				1BB0230EF9F7B5CFD2894289B893996E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

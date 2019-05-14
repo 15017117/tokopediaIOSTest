@@ -1,0 +1,20 @@
+PODS:
+  - DLRadioButton (1.4.12)
+  - RangeSeekSlider (1.8.0)
+
+DEPENDENCIES:
+  - DLRadioButton (~> 1.4)
+  - RangeSeekSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DLRadioButton
+    - RangeSeekSlider
+
+SPEC CHECKSUMS:
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+
+PODFILE CHECKSUM: 35f133b3ce93cb6ef1926dcc4438debe1a0267f2
+
+COCOAPODS: 1.6.1

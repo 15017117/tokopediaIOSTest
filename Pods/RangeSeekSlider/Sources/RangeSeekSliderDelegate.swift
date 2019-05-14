@@ -1,13 +1,15 @@
 //
-//  RangeSliderDelegate.swift
-//  miniprojecttokopedia
+//  RangeSeekSliderDelegate.swift
+//  RangeSeekSlider
 //
-//  Created by Ivan Lipotan on 10/5/19.
+//  Created by Keisuke Shoji on 2017/03/09.
 //
+//
+
 import CoreGraphics
 
 public protocol RangeSeekSliderDelegate: class {
-    
+
     /// Called when the RangeSeekSlider values are changed
     ///
     /// - Parameters:
@@ -15,17 +17,17 @@ public protocol RangeSeekSliderDelegate: class {
     ///   - minValue: minimum value
     ///   - maxValue: maximum value
     func rangeSeekSlider(_ slider: RangeSeekSlider, didChange minValue: CGFloat, maxValue: CGFloat)
-    
+
     /// Called when the user has started interacting with the RangeSeekSlider
     ///
     /// - Parameter slider: RangeSeekSlider
     func didStartTouches(in slider: RangeSeekSlider)
-    
+
     /// Called when the user has finished interacting with the RangeSeekSlider
     ///
     /// - Parameter slider: RangeSeekSlider
     func didEndTouches(in slider: RangeSeekSlider)
-    
+
     /// Called when the RangeSeekSlider values are changed. A return `String?` Value is displayed on the `minLabel`.
     ///
     /// - Parameters:
@@ -33,7 +35,7 @@ public protocol RangeSeekSliderDelegate: class {
     ///   - minValue: minimum value
     /// - Returns: String to be replaced
     func rangeSeekSlider(_ slider: RangeSeekSlider, stringForMinValue minValue: CGFloat) -> String?
-    
+
     /// Called when the RangeSeekSlider values are changed. A return `String?` Value is displayed on the `maxLabel`.
     ///
     /// - Parameters:
@@ -45,8 +47,9 @@ public protocol RangeSeekSliderDelegate: class {
 
 
 // MARK: - Default implementation
+
 public extension RangeSeekSliderDelegate {
-    
+
     func rangeSeekSlider(_ slider: RangeSeekSlider, didChange minValue: CGFloat, maxValue: CGFloat) {}
     func didStartTouches(in slider: RangeSeekSlider) {}
     func didEndTouches(in slider: RangeSeekSlider) {}
